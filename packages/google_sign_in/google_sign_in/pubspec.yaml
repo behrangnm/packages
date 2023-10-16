@@ -23,7 +23,11 @@ dependencies:
   flutter:
     sdk: flutter
   google_sign_in_android: ^6.1.0
-  google_sign_in_ios: ^5.5.0
+  google_sign_in_ios:
+    git:
+      url: https://github.com/behrangnm/packages.git
+      path: packages/google_sign_in/google_sign_in_ios
+      ref: google-sign-in-macos
   google_sign_in_platform_interface: ^2.4.0
   google_sign_in_web: ^0.12.0
 
